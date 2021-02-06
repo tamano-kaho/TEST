@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+/*共通部分*/
+
+html{
+font-size: 100%;
+}
+body {
+  background-color:  #f7c6bd;
+  font-family: serif;
+  text-align: center;
+}
+img{
+  max-width: 100%;
+  max-height: 100%;
+}
+p{
+  font-size: 30px;
+}
+li{
+  font-size: 20px;
+  margin-left: 5%;
+}
+ul{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3%;
+  margin-right: 5%;
+  list-style-type: none;
+}
+
+
+/*header*/
+.logo{
+  width: 200px;
+  margin-top:10px;
+}　　
+
+/*背景画像*/
+.big-bg{
+  background-position: center top;
+}
+
+#home{
+  background-image: url(home.jpg);
+  height: 120vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: cover;
+}
+
+/*home*/
+.page-title{
+  color:#fff;
+  font-size: 120px;
+  margin-top: 7%;
+}　
+
+.sabu-title{
+  font-size: 100px;
+}
+
+/*article*/
+h3{
+  font-size: 50px;
+}
+
+/*section*/
+
+h4{
+  text-align: center;
+  font-size: 40px;
+  background-color: #faa;
+  width: 430px;
+  margin-left: 500px;
+}
+
+h5{
+  font-size: 30px;
+}
+
+/*footer*/
+
+h6{
+  font-size: 30px;
+  font-family: cursive;
+  margin-left: 200px;
+}
+
+.acsess {
+  background-color: #ff6c94;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.acsess img{
+  max-width: 170%;
+  max-height: 170%;
+  margin-top: 45px;
+  margin-right: 10px;
+}
+.pic img{
+  max-width: 500%;
+  max-height: 500%;
+  margin-left: 200px;
+}
+
+
+.fin{
+  background-color: #ddd;
+}
+.fin p{
+  font-size: 1rem;
+}
